@@ -146,7 +146,7 @@ public class Controller {
         return false;
     }
 
-    private boolean check(Point p1, Point p2) {
+    private boolean check(Point p1, Point p2) { // fix bug
         Point pMinX = p1, pMaxX = p2;
         if (p1.x > p2.x) {
             pMinX = p2;
